@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size:17px ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.models{
+    display: flex;
+    flex-direction: row;
+}
+
+.models-box {
+    background:rgba(255,255,255,0.5); 
+    border:1px solid gray; 
+    border-radius:10px; 
+}
+
+.section{
+    width:80%; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding:2% 0; 
+}
+
+#heading{
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#wrap{
+    text-align:center;
+}
+
+.model{
+    background-color:rgba(255,255,255,0.7);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.picture{
+    margin-top: 20px;
+    width: 200px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.model-text {
+    text-align: left;
+    padding: 20px;
+}
+
+body{
+    background:url(img/company1.jpg) center fixed; 
+    background-size: cover;
+}
+
+.title {
+    background-color:rgba(255,255,255,0.7);
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.car-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 950px) {
+    nav {
+        height: 160px;
+        text-align: center;
+    }
+    .options {
+        float: none;
+    }
+
+    .models {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    nav {
+        height: 240px;
+    }
+    
+}

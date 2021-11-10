@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="icon" href="../Sajt/img/BMW-Logo.png">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <label class="logo">BMW</label>
+            <ul class="options">
+                <li><a href="./Pocetna.html">Pocetna</a></li>
+                <li><a href="./Pocetna.html #history">Istorija</a></li>
+                <li><a href="./Pocetna.html #fields">Oblasti</a></li>
+                <li><a href="./Modeli.html">Modeli</a></li>
+                <li><a class="active" href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="wrap fade">
+            <form class="contact">
+                <label for="name" class="fname">Ime :</label><br>
+                <input type="text" name="fname"><br>
+                <label for="lname" class="lname" for="lname">Prezime :</label><br>
+                <input type="text" name="lname"><br>
+                <label class="number">Broj Telefona :</label><br>
+                <input type="text" name="number"><br><br>
+                <p class="gender">Pol :</p>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Musko</label><br>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Zensko</label><br><br>
+                <label class="comment" for="comment">Komentar :</label><br><br>
+                <textarea id="comment" name="comment"></textarea><br><br>
+                <input class="btt" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
