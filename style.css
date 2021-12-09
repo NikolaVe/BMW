@@ -14,9 +14,17 @@ nav{
 }
 
 .fb{
-    text-align: center;
+    text-align: right;
+    float: left;
     padding-top: 20px;
-    margin: auto;
+    width: 50%;
+}
+
+.fb1{
+    text-align: left;
+    float: right;
+    padding-top: 20px;
+    width: 50%;
 }
 
 label.logo{
