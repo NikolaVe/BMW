@@ -1,5 +1,2 @@
-User-agent: Unnecessarybot
+User-agent: Googlebot
 Disallow: /
-
-User-agent: *
-Allow: /
